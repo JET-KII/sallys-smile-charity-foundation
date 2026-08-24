@@ -1,0 +1,161 @@
+{
+  "currency": "GHS",
+  "donation": {
+    "minimumAmount": 10,
+    "label": "Support Sally's Smile Charity Foundation"
+  },
+  "deliveryZones": [
+    {
+      "code": "tamale-metro",
+      "name": "Tamale Metro",
+      "fee": 15.0
+    },
+    {
+      "code": "accra-metro",
+      "name": "Accra Metro",
+      "fee": 30.0
+    },
+    {
+      "code": "other-northern-region",
+      "name": "Other Northern Region",
+      "fee": 25.0
+    },
+    {
+      "code": "rest-of-ghana",
+      "name": "Rest of Ghana",
+      "fee": 40.0
+    }
+  ],
+  "products": [
+    {
+      "sku": "sn-shea-moisturizer",
+      "name": "SN SHEA MOISTURIZER",
+      "description": "A nourishing shea moisturizer enriched to support soft, healthy-looking skin.",
+      "price": 70.0,
+      "currency": "GHS",
+      "purchasable": true,
+      "enquireOnly": false,
+      "image": "assets/shop/product-01.jpeg"
+    },
+    {
+      "sku": "shop-item-02",
+      "name": "Product Name Coming Soon",
+      "description": "Product details and pricing will be added soon.",
+      "price": null,
+      "currency": "GHS",
+      "purchasable": false,
+      "enquireOnly": true,
+      "image": "assets/shop/product-02.jpeg"
+    },
+    {
+      "sku": "shop-item-03",
+      "name": "Product Name Coming Soon",
+      "description": "Product details and pricing will be added soon.",
+      "price": null,
+      "currency": "GHS",
+      "purchasable": false,
+      "enquireOnly": true,
+      "image": "assets/shop/product-03.jpeg"
+    },
+    {
+      "sku": "sn-shea-lemongrass-oil-50ml",
+      "name": "SN SHEA LEMONGRASS OIL (50ML)",
+      "description": "A compact shea lemongrass oil option for everyday skin care and nourishment.",
+      "price": 40.0,
+      "currency": "GHS",
+      "purchasable": true,
+      "enquireOnly": false,
+      "image": "assets/shop/product-04.jpeg"
+    },
+    {
+      "sku": "shop-item-06",
+      "name": "Product Name Coming Soon",
+      "description": "Product details and pricing will be added soon.",
+      "price": null,
+      "currency": "GHS",
+      "purchasable": false,
+      "enquireOnly": true,
+      "image": "assets/shop/product-06.jpeg"
+    },
+    {
+      "sku": "sn-moringa-oil",
+      "name": "SN MORINGA OIL",
+      "description": "A nutrient-rich moringa oil prepared to support skin and wellness routines.",
+      "price": 70.0,
+      "currency": "GHS",
+      "purchasable": true,
+      "enquireOnly": false,
+      "image": "assets/shop/product-07.jpeg"
+    },
+    {
+      "sku": "shop-item-08",
+      "name": "Product Name Coming Soon",
+      "description": "Product details and pricing will be added soon.",
+      "price": null,
+      "currency": "GHS",
+      "purchasable": false,
+      "enquireOnly": true,
+      "image": "assets/shop/product-08.jpeg"
+    },
+    {
+      "sku": "sn-luxury-massage-oil",
+      "name": "SN LUXURY MASSAGE OIL",
+      "description": "A premium massage oil prepared for soothing body care and relaxation.",
+      "price": 120.0,
+      "currency": "GHS",
+      "purchasable": true,
+      "enquireOnly": false,
+      "image": "assets/shop/product-09.jpeg"
+    },
+    {
+      "sku": "sn-shea-lemongrass-oil-250ml",
+      "name": "SN SHEA LEMONGRASS OIL (250ML)",
+      "description": "A larger shea lemongrass oil bottle designed for regular household use.",
+      "price": 120.0,
+      "currency": "GHS",
+      "purchasable": true,
+      "enquireOnly": false,
+      "image": "assets/shop/product-10.jpeg"
+    },
+    {
+      "sku": "sn-pink-lip-balm",
+      "name": "SN PINK LIP BALM",
+      "description": "A soft pink lip balm that helps keep lips smooth and moisturized.",
+      "price": 30.0,
+      "currency": "GHS",
+      "purchasable": true,
+      "enquireOnly": false,
+      "image": "assets/shop/product-11.jpeg"
+    },
+    {
+      "sku": "sn-mint-lip-balm",
+      "name": "SN MINT LIP BALM",
+      "description": "A mint lip balm crafted for light daily moisture and freshness.",
+      "price": 30.0,
+      "currency": "GHS",
+      "purchasable": true,
+      "enquireOnly": false,
+      "image": "assets/shop/product-12.jpeg"
+    },
+    {
+      "sku": "sn-luxury-facial-oil",
+      "name": "SN LUXURY FACIAL OIL",
+      "description": "A luxury facial oil prepared to support a smooth, nourished glow.",
+      "price": 90.0,
+      "currency": "GHS",
+      "purchasable": true,
+      "enquireOnly": false,
+      "image": "assets/shop/product-13.jpeg"
+    },
+    {
+      "sku": "shop-item-14",
+      "name": "Product Name Coming Soon",
+      "description": "Product details and pricing will be added soon.",
+      "price": null,
+      "currency": "GHS",
+      "purchasable": false,
+      "enquireOnly": true,
+      "image": "assets/shop/product-14.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Donate | Sally's Smile Charity Foundation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css?v=20260730-glass" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.jpg" alt="Sally's Smile Charity Foundation logo" />
+        <span>Sally's Smile<br />Charity Foundation</span>
+      </a>
+      <nav class="nav-links" data-menu>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="work.html">Our Work</a>
+        <a href="impact.html">Impact</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="shop.html">Shop</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn-ghost" href="contact.html">Volunteer</a>
+        <a class="btn btn-primary" href="donate.html">Donate Now</a>
+      </div>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false">Menu</button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Give Securely</h1>
+      <p>Make a one-time donation through our secure payment page and help us keep outreach, education, and care moving forward.</p>
+    </div>
+  </section>
+
+  <section class="section" data-donate-page>
+    <div class="container checkout-layout">
+      <div class="contact-form checkout-form-wrap">
+        <div class="section-tag">Donation Checkout</div>
+        <h2 class="section-title">Support the mission with a custom gift.</h2>
+        <p class="section-subtitle">You choose the amount and complete your gift on a secure payment page.</p>
+        <form>
+          <div class="field">
+            <label for="donation-amount">Donation amount (GHS)</label>
+            <input id="donation-amount" name="amount" type="number" min="10" step="0.01" placeholder="50" required />
+          </div>
+          <div class="field">
+            <label for="donor-name">Full name</label>
+            <input id="donor-name" name="name" type="text" placeholder="Your full name" required />
+          </div>
+          <div class="field-grid two-up">
+            <div class="field">
+              <label for="donor-email">Email</label>
+              <input id="donor-email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+            <div class="field">
+              <label for="donor-phone">Phone</label>
+              <input id="donor-phone" name="phone" type="tel" placeholder="+233 ..." required />
+            </div>
+          </div>
+          <div class="field">
+            <label for="donor-note">Message (optional)</label>
+            <textarea id="donor-note" name="note" placeholder="Share a note for the team or tell us what inspired your gift."></textarea>
+          </div>
+          <p class="inline-note" data-donation-note>Your donation amount will be confirmed before payment.</p>
+          <button class="btn btn-primary form-submit" type="submit" data-donation-submit>Continue To Secure Payment</button>
+        </form>
+      </div>
+
+      <aside class="card donation-side">
+        <div class="section-tag">Giving Impact</div>
+        <h2 class="section-title">Your donation goes straight to meaningful outreach.</h2>
+        <div class="list">
+          <div class="list-item"><span><strong>Education:</strong> School supplies, uniforms, and learning support for children.</span></div>
+          <div class="list-item"><span><strong>Health:</strong> Hygiene campaigns, health awareness, and relief support.</span></div>
+          <div class="list-item"><span><strong>Community Care:</strong> Food, clothing, and humanitarian support for vulnerable families.</span></div>
+        </div>
+        <div class="badge donate-badge">Secure Hosted Checkout</div>
+        <p class="section-subtitle">After you submit this form, you will be redirected to a secure payment page to complete your donation.</p>
+      </aside>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a class="brand" href="index.html">
+            <img src="assets/logo.jpg" alt="Sally's Smile Charity Foundation logo" />
+            <span>Sally's Smile<br />Charity Foundation</span>
+          </a>
+          <p>Dedicated to improving the lives of vulnerable children and families across Ghana.</p>
+        </div>
+        <div>
+          <h5>Navigate</h5>
+          <a href="about.html">About Us</a>
+          <a href="work.html">Our Work</a>
+          <a href="impact.html">Impact</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="shop.html">Shop</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div>
+          <h5>Get Involved</h5>
+          <a href="donate.html">Donate</a>
+          <a href="contact.html">Volunteer</a>
+          <a href="contact.html">Partner</a>
+          <a href="contact.html">Sponsor</a>
+        </div>
+        <div>
+          <h5>Focus Areas</h5>
+          <a href="work.html">Education</a>
+          <a href="work.html">Healthcare</a>
+          <a href="work.html">Environment</a>
+          <a href="work.html">Empowerment</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>Copyright 2026 Sally's Smile Charity Foundation. All rights reserved.</span>
+        <span>Accra, Ghana - smilecharityfoundation2022@gmail.com</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+  <script src="assets/storefront.js"></script>
+</body>
+</html>
+

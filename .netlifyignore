@@ -1,0 +1,15 @@
+.git/
+.netlify/
+.venv/
+.idea/
+node_modules/
+dist/
+Background/
+Logo/
+Shop_items/
+docs/
+supabase/
+SMILE NATURALS PRICES.docx
+START_HERE.md
+vercel.json
+gallery_contact_sheet.html

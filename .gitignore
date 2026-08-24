@@ -1,0 +1,25 @@
+.netlify/
+node_modules/
+dist/
+.venv/
+.idea/
+.playwright-cli/
+
+# Local/reference-only folders that are not needed in production deploys
+Background/
+Logo/
+Shop_items/
+
+# Local setup and generated review artifacts
+START_HERE.md
+gallery_contact_sheet.html
+*.docx
+assets/styles.pre-redesign-backup.css
+assets/styles.zip
+
+# Local secrets template and alternate host config
+.env
+.env.local
+.env.*
+!.env.example
+vercel.json
