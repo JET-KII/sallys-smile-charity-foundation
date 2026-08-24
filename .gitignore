@@ -4,6 +4,7 @@ dist/
 .venv/
 .idea/
 .playwright-cli/
+.vercel/
 
 # Local/reference-only folders that are not needed in production deploys
 Background/
@@ -17,9 +18,8 @@ gallery_contact_sheet.html
 assets/styles.pre-redesign-backup.css
 assets/styles.zip
 
-# Local secrets template and alternate host config
+# Local secrets
 .env
 .env.local
 .env.*
 !.env.example
-vercel.json
