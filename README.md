@@ -2,13 +2,15 @@
 
 A responsive charity and social-impact website for Sally's Smile Charity Foundation. The platform presents the foundation's work, impact stories, gallery, donation options, and fundraising shop, with secure serverless payment flows for Paystack and Supabase-backed order records.
 
+**Live website:** https://sallys-smile-charity-foundation.vercel.app
+
 ## Highlights
 
 - Multi-page responsive website for the foundation's mission, work, and impact
 - Gallery and campaign storytelling with optimized local media
 - Product catalogue, shopping cart, checkout, and delivery configuration
 - One-time donation flow through Paystack hosted checkout
-- Netlify Functions for checkout, payment callbacks, status checks, and webhooks
+- Vercel and Netlify Functions for checkout, payment callbacks, status checks, and webhooks
 - Supabase-backed payment and order storage
 - Verified Paystack webhook signatures
 - Optional Resend notifications for administrators
@@ -19,7 +21,7 @@ A responsive charity and social-impact website for Sally's Smile Charity Foundat
 - HTML5 and CSS3
 - Vanilla JavaScript
 - Node.js
-- Netlify Functions
+- Vercel Functions and Netlify Functions
 - Paystack
 - Supabase/PostgreSQL
 - Resend (optional)
@@ -50,6 +52,7 @@ scripts/              Production build scripts
 supabase/             Database schema
 *.html                Public website pages
 netlify.toml           Netlify build and function configuration
+vercel.json            Vercel build and function configuration
 ```
 
 ## Run Locally
@@ -103,16 +106,22 @@ Run [`supabase/schema.sql`](supabase/schema.sql) in the Supabase SQL editor. It 
 
 ## Deployment
 
-The repository is configured for Netlify:
+The live website is deployed on Vercel:
+
+- Build command: `npm run build`
+- Output directory: `dist`
+- Functions directory: `api`
+
+The repository also retains its Netlify configuration:
 
 - Build command: `npm run build`
 - Publish directory: `dist`
 - Functions directory: `netlify/functions`
 
-Configure all production secrets in the Netlify environment settings and register the Paystack webhook at:
+Configure all production secrets in the selected host's environment settings. For Vercel, register the Paystack webhook at:
 
 ```text
-https://your-domain/.netlify/functions/payment-webhook
+https://sallys-smile-charity-foundation.vercel.app/api/payments/webhook
 ```
 
 ## Security Notes
@@ -124,4 +133,4 @@ https://your-domain/.netlify/functions/payment-webhook
 
 ## Status
 
-The website and Netlify production build are functional. Live payments require valid Paystack and Supabase configuration, verified callback URLs, and final review of products and delivery fees.
+The website is live on Vercel and its production build is functional. Live payments require valid Paystack and Supabase configuration, verified callback URLs, and final review of products and delivery fees.
